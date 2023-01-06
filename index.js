@@ -15,7 +15,7 @@ server.use(bodyParser.json());
 
 // __dirname gets the current directory of the file (index.js in this case).
 console.log(__dirname);
-server.use('/', express.static(path.join(__dirname, 'public')));
+server.use('/', express.static(path.join(__dirname, 'src/public')));
 
 server.listen(port, () => {
     console.log(`Server listening to port ${port}`);
