@@ -26,6 +26,7 @@ body {
   font-family: "Euclid Circular A";
   animation: gradient 10s infinite alternate linear;
 }
+
 .material-symbols-outlined {
   font-family: "Material Symbols Outlined";
   font-weight: normal;
@@ -109,6 +110,11 @@ span.size-20 {
   box-shadow: 0 0 20px 9px #ffde4a1f;
   border-radius: 30px;
 }
+
+button.toggle-btn {
+  font-weight: 700;
+}
+
 
 .toggle-btn {
   width: 108px;
@@ -216,4 +222,12 @@ span.size-20 {
   font-size: 16px;
   text-align: left;
   text-decoration: none;
+}
+
+.agreement-container{
+  position: relative;
+  left: 0px;
+}
+.change-conainer{
+  font-size: 16px;
 }
