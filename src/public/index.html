@@ -13,25 +13,46 @@
   <body>
     <div class="login">
       <div class="avatar">
-        <span class="material-symbols-outlined size-20">
-          person
-          </span>
+        <span class="material-symbols-outlined size-20"> person </span>
       </div>
-      <h2>Login</h2>
-      <h3>Welcome!</h3>
-
-      <form class="login-form">
+        <div class="button-box">
+          <div class="btn-toggler" id="btn-toggle"></div>
+          <button
+            type="button"
+            class="toggle-btn"
+            onclick="toggleLoginForm(false)"
+          >
+            Login
+          </button>
+          <button
+            type="button"
+            class="toggle-btn"
+            onclick="toggleLoginForm(true)"
+          >
+            Register
+          </button>
+        </div>
+      <form class="login-form" id="loginForm">
         <div class="textbox">
-          <input type="email" placeholder="Email" />
-          <span class="material-symbols-outlined"> account_circle </span>
+          <input id="name" type="text" placeholder="Name" />
+          <span class="material-symbols-outlined"> person </span>
         </div>
         <div class="textbox">
-          <input type="password" placeholder="Password" />
+          <input id="email" type="email" placeholder="Email" />
+          <span class="material-symbols-outlined"> mail </span>
+        </div>
+        <div class="textbox">
+          <input id="password" type="password" placeholder="Password" />
           <span class="material-symbols-outlined"> lock </span>
+        </div>
+        <div>
+          <input type="checkbox" name="agree" id="agree" />
+          <span>I agree to the terms & conditions</span>
         </div>
         <button type="submit">LOGIN</button>
         <a href="https://github.com/arka-6">Forgot your credentials?</a>
       </form>
     </div>
+    <script src="./js/app.js"></script>
   </body>
 </html>

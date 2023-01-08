@@ -30,7 +30,7 @@ body {
   font-family: "Material Symbols Outlined";
   font-weight: normal;
   font-style: normal;
-  font-size: 24px; /* Preferred icon size */
+  font-size: 24px;
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -52,11 +52,7 @@ span.size-20 {
 }
 
 .login {
-  position: fixed;
-  z-index: 3;
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
+  margin: 50px auto;
   width: 90%;
   padding: 70px 30px 44px;
   border-radius: 50px;
@@ -102,12 +98,68 @@ span.size-20 {
   font-size: 16px;
 }
 
+.hide {
+  display: none;
+}
+
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ffde4a1f;
+  border-radius: 30px;
+}
+
+.toggle-btn {
+  width: 108px;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+  color: #7a92fa;
+}
+
+.btn-toggler {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ffff, rgb(206, 198, 198));
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.btn-toggler-second {
+  left: auto;
+  right: 0;
+}
 .login-form {
   display: grid;
   gap: 16px;
   place-items: center;
   width: 100%;
   margin: 0;
+}
+
+#login {
+  left: 50px;
+}
+
+#register {
+  left: 450px;
+}
+
+.cxbox {
+  margin: 30px 30px 10px 0;
+}
+
+.spn {
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
 }
 
 .textbox {
@@ -141,12 +193,13 @@ span.size-20 {
   color: inherit;
 }
 
-.login-form input:focus {
-  border-color: #157ae1;
+.login-form input[type="checkbox"] {
+  height: auto;
+  width: auto;
 }
 
-.login-form input:focus ~ span {
-  color: #157ae1;
+.login-form input:focus {
+  border-color: #157ae1;
 }
 
 .login-form button {
