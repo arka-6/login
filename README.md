@@ -10,19 +10,19 @@
     padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     text-align: center;
-}
-h1 {
+        }
+    h1 {
     font-size: 2em;
     margin-bottom: 20px;
-}
+     }
 
-h2 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+      margin-top: 50px;
+    }
 
-</style>
+  </style>
   </head>
   <body>
     <div class="container">
