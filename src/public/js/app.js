@@ -53,6 +53,10 @@ function toggleLoginForm(isRegister) {
   }
 }
 
+
+
+
+
 /*function toggleLoginForm(isRegister) {
   loginForm = document.getElementById("loginForm");
   loginForm.reset();
