@@ -4,7 +4,7 @@
     <div class="container">
       <h1>Login Page Repository</h1>
       <p>
-        This repository contains the code for a simple login page. LInk to access - https://login-zeta-two.vercel.app/
+        This repository contains the code for a simple login page. Link to access - https://login-zeta-two.vercel.app/
         It is built using HTML, CSS, and JavaScript and includes basic functionality such as input validation.
       </p>
       <h2>Usage</h2>
