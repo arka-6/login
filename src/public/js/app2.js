@@ -1,5 +1,3 @@
-// Progress simulation
 setTimeout(() => {
-    document.getElementById("splash-screen").style.display = "none";
-  }, 3000);
-  
+  window.location.replace("./index.html");
+}, 4000);
